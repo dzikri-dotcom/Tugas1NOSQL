@@ -5,7 +5,7 @@
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-green.svg)](https://www.mongodb.com/)
 [![Docker](https://img.shields.io/badge/Container-Docker-blue.svg)](https://www.docker.com/)
 
-Sistem pengelolaan Big Data otomatis yang melakukan *scraping* berita (Detik News) dan konsumsi API (DummyJSON) secara berkala, menyimpannya ke database NoSQL MongoDB, dan menyajikannya melalui dashboard web interaktif berbasis Flask.
+Sistem pengelolaan Big Data otomatis yang dirancang untuk melakukan ingesti data dari berbagai sumber (Multi-source Ingestion), mencakup teknik Web Scraping pada portal berita nasional dan konsumsi REST API secara berkala. Seluruh data diintegrasikan ke dalam database NoSQL MongoDB dan disajikan melalui dashboard web interaktif berbasis Flask yang dilengkapi dengan fitur pencarian cepat.
 
 ---
 
