@@ -27,12 +27,17 @@ Sistem pengelolaan Big Data otomatis yang melakukan *scraping* berita (Detik New
 ## 📂 Struktur Folder
 ```text
 Tugas1NOSQL/
-└── tugas1_nosql/
-    ├── main.py              # Logic Flask & Background Crawler
-    ├── docker-compose.yml   # Konfigurasi MongoDB
-    ├── requirements.txt     # Dependensi Library
-    ├── templates/           # Frontend (HTML)
-    └── static/              # Aset Visual (CSS/JS)
+├── scripts/
+│   ├── api_collector.py     # Modul pengumpulan data via API
+│   ├── web_scraper.py       # Modul scraping data dari portal berita
+│   └── __init__.py          # Inisialisasi package Python
+├── templates/
+│   └── index.html           # Dashboard UI (Jinja2 Template)
+├── Dockerfile               # Konfigurasi Docker Image
+├── docker-compose.yml       # Konfigurasi MongoDB Container
+├── main.py                  # Aplikasi Utama & Flask Server
+├── README.md                # Dokumentasi Proyek
+└── requirements.txt         # Daftar Library (Flask, Pymongo, dll)
 
 1. **Clone Repository**
    ```bash
