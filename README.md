@@ -12,7 +12,7 @@ Sistem pengelolaan Big Data otomatis yang dirancang untuk melakukan ingesti data
 ## 👥 Anggota Kelompok (IS-06-02)
 - **Farrel Mario Prasetyo** (1204230049) 
 - **Dzikri Lathiful Qodim** (1204230102) 
-- **Achmad Zaki** (12042300)
+- **Achmad Zaki** (1204230042)
 
 ---
 
